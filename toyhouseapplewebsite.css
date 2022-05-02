@@ -1,0 +1,62 @@
+/* ---- THIS CSS SHEET IS INTENDED ONLY FOR USE WITH THE PROVIDED "FRINGE" HTML --- */
+/* ---- DO NOT just paste any random html in here -- only use the provided html --- */
+
+
+/* page background pattern -- paste image URL here -- put "none" if you do not want to use a pattern */
+$bg_url: "https://f2.toyhou.se/file/f2-toyhou-se/images/23018671_K3msvpd94iSiYEl.png";
+
+
+/* page background color -- can be combined with a transparent pattern or seen when no background pattern is used */
+$bg_c: #5d3bff;
+
+
+/* TH header bar -- will have white font */
+$header: #1a1a1a;
+
+
+/* content corners - choose "sharp" or "soft" or "round" or "rounder" */
+$radius: rounder;
+
+
+/* RECENT IMAGES --- set to "on" or "off" to control if recent images shows */
+$recent_images: on;
+
+
+/* CONTENT AREAS -------------------------------------------------------------------------- */
+/* focal image url -- this is the main image that appears on the right side of the layout
+-- this image must be set in the CSS so it can be displayed properly on mobile view -----*/
+$focal: "https://cdn.discordapp.com/attachments/828424800346308688/968207834347102239/apple_for_website.png";
+
+
+/* primary color - top banner color, links & primary buttons */
+$primary: #f970b4;
+
+
+/* content section backgrounds */
+$body: #fff;
+
+
+/* main font color */
+$font: #f970b4;
+
+
+/* border color -- used for divider lines */
+$border_c: rgba($font, 0.125);
+
+
+/* faded background color */
+$bg_faded: darken($body,4%);
+
+
+/* NAVIGATION SWITCHES ----- set to "on" for the sidebar links to appear -- set to "off" for the links to hide */
+$nav_worlds: off;
+
+$nav_links: off;
+
+$nav_lits: off;
+
+
+/* CSS IMPORT LINK -- do not combine with other imports */
+@import '0/705/GCL0Th/fringe';
+
+/* if you want to write custom css, do so below the import */
